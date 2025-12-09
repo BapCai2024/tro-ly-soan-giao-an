@@ -1,4 +1,2 @@
-streamlit
-google-generativeai
-python-docx
-PyPDF2
+beautifulsoup4
+requests

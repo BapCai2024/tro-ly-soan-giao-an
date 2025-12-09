@@ -8,7 +8,7 @@ st.set_page_config(page_title="Trợ Lý Soạn Giáo Án Tiểu Học", page_ic
 st.title("📚 AI Soạn Giáo Án Tiểu Học (Theo CV 2345)")
 
 # Nhập API Key
-api_key = st.text_input("nhapmagooglekpi:", type="password")
+api_key = st.text_input("nhapmagooglekpi", type="password")
 
 # Hàm đọc file PDF
 def get_pdf_text(pdf_docs):
